@@ -1,0 +1,70 @@
+table{
+    border:solid #000 1px;
+    /*background-image: url(../images/fundo_preto.jpg); */
+	width:100%;
+	padding:0;
+	float: left;
+}
+
+table tr td{
+	width:50px;
+    min-width:50px;
+	height:50px;
+	border:1px solid black;
+	text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+  .navbar-nav > li.navbar-right {
+    float: right !important;
+  }
+}
+/*
+table tr:nth-child(even) td:nth-child(even) {
+    background-color: #dedede; 
+}
+
+table tr:nth-child(odd) td:nth-child(odd) {
+	background-color: #dedede;  
+}
+*/
+/*
+div.peca {
+		width: 30px;
+		height: 30px;
+		margin:10px;
+		-moz-border-radius:20px;
+        -webkit-border-radius:20px;
+        border-radius:20px;
+}
+
+div.azul {
+	background-color: blue;
+}
+
+div.vermelha {
+	background-color: red;
+}
+*/
+/*
+div#boxA, div#boxB{
+	float: left;
+	margin:0 20px;
+	background: #EEE;
+	border: 1px solid #CCC;
+	height: 200px;
+	width: 200px;
+}
+*/
