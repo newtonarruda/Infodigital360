@@ -43,13 +43,13 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height, maximum-scale=1, user-scalable=no">
-	<script src="components/loader.js"></script>
+	<!-- script src="components/loader.js"></script -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" >
+    <link rel="stylesheet" href="../resources/css/jquery-ui.min.css" >
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>    
-	<link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" href="../resources/css/style.css">
+    <script type="text/javascript" src="../resources/js/index.js"></script>
     <title>Infodigital GBV</title>
 </head>
 <body>
@@ -63,7 +63,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="navbar-left"><img src="images/Logo vetor 360.png" alt="Seu empreendimento no Google"></li>
+				<li class="navbar-left"><img src="../resources/images/Logo vetor 360.png" alt="Seu empreendimento no Google"></li>
 <!--
 				<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></span> &nbsp; Home</a></li>
 				<li><a href="duvidas.html"><span class="glyphicon glyphicon-question-sign"></span> &nbsp; Dúvidas Frequentes</a></li>
