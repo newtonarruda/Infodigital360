@@ -324,9 +324,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 					<div class="alert alert-danger text-center">Houve um erro no envio, tente novamente mais tarde.</div>
 				</div>
 				<?php endif; ?>
-			
-			<?php endif; ?>
-				
+							
 			<div class="row">
 				<div class="col-lg-12">
 					<form action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="contact-form" class="form-horizontal" role="form" method="post">
@@ -362,6 +360,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 					</form>
                 </div>
 			</div>
+			<?php endif; ?>
+
         </div>
     </section>
 
