@@ -325,7 +325,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 				</div>
 				<?php endif; ?>
 			
-            <div class="row">
+			<?php endif; ?>
+				
+			<div class="row">
 				<div class="col-lg-12">
 					<form action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="contact-form" class="form-horizontal" role="form" method="post">
 						<div class="form-group">
@@ -359,8 +361,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 						</div>
 					</form>
                 </div>
-				<?php endif; ?>
-
 			</div>
         </div>
     </section>
