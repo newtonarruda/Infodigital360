@@ -1,6 +1,6 @@
 <?php
-$subjectPrefix = '[Contato via Infodigital360.com.br]';
-$emailTo = 'waldemararruda@gmail.com';
+$subjectPrefix = '[Contato via Site]';
+$emailTo = 'vendas@infodigital.com.br';
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = stripslashes(trim($_POST['form-name']));
     $email   = stripslashes(trim($_POST['form-email']));
@@ -95,6 +95,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
 		</ol>
 
 		<div class="carousel-inner" role="listbox">
@@ -324,8 +325,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 					<div class="alert alert-danger text-center">Houve um erro no envio, tente novamente mais tarde.</div>
 				</div>
 				<?php endif; ?>
-							
-			<div class="row">
+			
+            <div class="row">
 				<div class="col-lg-12">
 					<form action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="contact-form" class="form-horizontal" role="form" method="post">
 						<div class="form-group">
@@ -359,9 +360,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 						</div>
 					</form>
                 </div>
-			</div>
-			<?php endif; ?>
+				<?php endif; ?>
 
+			</div>
         </div>
     </section>
 
