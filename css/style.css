@@ -106,11 +106,11 @@ h1 {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-image: -webkit-linear-gradient(top, #828dff 0%, #4e81ff 100%);
-    background-image:      -o-linear-gradient(top, #828DFF 0%, #4e81ff 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#828DFF), to(#4e81ff));
-    background-image:         linear-gradient(to bottom, #828DFF 0%, #4e81ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff828DFF', endColorstr='#ff4e81ff', GradientType=0);
+    background-image: -webkit-linear-gradient(top, #85adff 0%, #4e81ff 100%);
+    background-image:      -o-linear-gradient(top, #85adff 0%, #4e81ff 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#85adff), to(#4e81ff));
+    background-image:         linear-gradient(to bottom, #85adff 0%, #4e81ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff85adff', endColorstr='#ff4e81ff', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
     background-repeat: repeat-x;
     border-radius: 4px;
