@@ -1,6 +1,6 @@
 <?php
 $subjectPrefix = '[Contato via Site]';
-$emailTo = 'vendas@infodigital.com.br';
+$emailTo = 'newton.arruda@gmail.com';
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = stripslashes(trim($_POST['form-name']));
     $email   = stripslashes(trim($_POST['form-email']));
