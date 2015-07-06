@@ -65,7 +65,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="navbar-left">
-						<a class="page-scroll" href="#page-top"><img src="images/logo_infodigital360.jpg" alt="Seu empreendimento no Google" width="150" height="28"></a>
+						<a class="page-scroll" href="#page-top"><img src="images/logo_infodigital360.png" alt="Seu empreendimento no Google" width="150" height="28"></a>
 
 					</li>
 					<li>
@@ -139,7 +139,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-						<img src="images/entre_contato.jpg" alt="Agência de confiança Google" width="150" height="112">
+						<img src="images/entre_contato.jpg" class="img-rounded" alt="Agência de confiança Google" width="150" height="112">
                     </span>
                     <h4 class="service-heading">1º Passo</h4>
                     <p class="text-muted">Entre em contato com a nossa equipe de vendas.</p>
@@ -149,14 +149,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <img src="images/agende_sessao.jpg" alt="Agência de confiança Google" width="150" height="112">
+                        <img src="images/agende_sessao.jpg" class="img-rounded" alt="Agência de confiança Google" width="150" height="112">
                     </span>
                     <h4 class="service-heading">2º Passo</h4>
                     <p class="text-muted">Agende uma sessão de fotos quando for mais conveniente para sua empresa.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <img src="images/nossa_equipe_edit.jpg" alt="Agência de confiança Google" width="150" height="112">
+                        <img src="images/nossa_equipe_edit.jpg" class="img-rounded" alt="Agência de confiança Google" width="150" height="112">
                     </span>
                     <h4 class="service-heading">3º Passo</h4>
                     <p class="text-muted">Relaxe ! Nossa equipe vai processar suas fotos do Business View e exibí-las no Google.</p>
@@ -171,21 +171,22 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Vantagens para sua empresa</h2>
-                    <h3 class="section-subheading text-muted">	
-						<li>Estar bem posicionado e aparecer com as suas principais informações na maior ferramenta de divulgação web do mundo, o Google.</li>
-						<li>Certeza de estar nos principais serviços do Google (Google Maps, Google Pesquisa e Google +).</li>
-						<li>Aumentar o número de visitas diárias à sua página.</li>
-						<li>Aumentar o número de clientes e o consequente sucesso de seu empreendimento.</li>
-						<li>Uma vitrine virtual de seus produtos e serviços 24 horas por dia.</li>
-						<li>Compartilhe seu tour virtual no facebook.</li>
-						<li>Baixo investimento ! Pagamento único, sem taxas ou manutenções mensais.</li>
-						<li>Seu Business View ficará no servidor do Google.</li>
-						<li>Incorpore o tour virtual no site de sua empresa, sem custos adicionais.</li>
-						<li>Compatível com todas as mídias existentes: tablets, computadores, smartphones e notebooks.</li>
-						<li>Possibilidade de inclusão no Google, de fotos profissionais de seu local e produtos.</li>
-					</h3>
+					<div class="text-left bg-light-gray">
+							<li>Estar bem posicionado e aparecer com as suas principais informações na maior ferramenta de divulgação web do mundo, o Google.</li>
+							<li>Certeza de estar nos principais serviços do Google (Google Maps, Google Pesquisa e Google +).</li>
+							<li>Aumentar o número de visitas diárias à sua página.</li>
+							<li>Aumentar o número de clientes e o consequente sucesso de seu empreendimento.</li>
+							<li>Uma vitrine virtual de seus produtos e serviços 24 horas por dia.</li>
+							<li>Compartilhe seu tour virtual no facebook.</li>
+							<li>Baixo investimento ! Pagamento único, sem taxas ou manutenções mensais.</li>
+							<li>Seu Business View ficará no servidor do Google.</li>
+							<li>Incorpore o tour virtual no site de sua empresa, sem custos adicionais.</li>
+							<li>Compatível com todas as mídias existentes: tablets, computadores, smartphones e notebooks.</li>
+							<li>Possibilidade de inclusão no Google, de fotos profissionais de seu local e produtos.</li>
+					</div>
                 </div>
             </div>
+			<br>
             <div class="row">
                 <div class="col-md-4 col-sm-6 vantagens-item">
                     <a href="#vantagensModal1" class="vantagens-link" data-toggle="modal">
@@ -194,7 +195,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/vantagens/img01.png" class="img-responsive" alt="">
+                        <img src="images/vantagens/img01.png" class="img-responsive img-rounded" alt="">
                     </a>
                     <div class="vantagens-caption">
                         <h4>Aumente o engajamento on-line com sua empresa</h4>
@@ -208,7 +209,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/vantagens/img02.png" class="img-responsive" alt="">
+                        <img src="images/vantagens/img02.png" class="img-responsive img-rounded" alt="">
                     </a>
                     <div class="vantagens-caption">
                         <h4>Convide os clientes a entrar no seu estabelecimento e ver o ambiente e a decoração com a navegação familiar do Street View</h4>
@@ -222,7 +223,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="images/vantagens/img03.png" class="img-responsive" alt="">
+                        <img src="images/vantagens/img03.png" class="img-responsive img-rounded" alt="">
                     </a>
                     <div class="vantagens-caption">
                         <h4>Adicione fotos de alta qualidade do seu local em todo o Google</h4>
@@ -413,23 +414,36 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			</div>
         </div>
     </section>
-
-	<div class="jumbotron">
-		<div class="col-md-4 text-justify text-muted">
-			<h4>NOSSA MISSÃO:</h4>
-			<h>Incluir CLIENTES nos mecanismos de Marketing e Busca via Web do Google,  com a melhor solução para atingir aumento de vendas.</h>
-		</div>
-		<div class="col-md-4 text-justify text-muted">
-			<h4>OBJETIVO:</h4>
-			<h>A máxima satisfação de nossos clientes.</h>
-		</div>
-		<div class="col-md-4 text-justify text-muted">
-			<h4>NOSSOS VALORES:</h4>
-			<h>Honestidade, Profissionalismo, Ética, Comprometimento, Reconhecimento.</h>
-		</div>
-		<div class="clearfix visible-lg"></div>
-	</div>
 	
+    <!-- Rodapé Section -->
+<!--    <section id="rodape" class="bg-light-gray"> -->
+	<div class="div-rodape bg-light-gray">
+        <div class="container">
+            <div class="row text-left">
+                <div class="col-md-4">
+					<img src="images/Logo vetor 360.png" alt="Infodigital Tecnologia em Informática." width="140" height="93">
+                    <p class="text-muted">Informações de contato</p>
+					<p class="text-muted">(11) 2061-7549</p>
+					<p class="text-muted">(11) 99636-3132</p>
+					<p class="text-muted">E-mail: <a class="page-scroll" href="#contato">vendas@infodigital.com.br</a></p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/logo_infodigital360.png" alt="Seu empreendimento no Google" width="150" height="28">
+					<br>
+					<br>
+                    <img src="images/TA-Badge-v1-BR-sm.png" alt="Agência de Confiança Google" width="140" height="140">
+                </div>
+                <div class="col-md-4">
+                    <p class="text-muted"><b>NOSSA MISSÃO:</b> Incluir CLIENTES nos mecanismos de Marketing e Busca via Web do Google,  com a melhor solução para atingir aumento de vendas.</p>
+                    <p class="text-muted"><b>OBJETIVO:</b> A máxima satisfação de nossos clientes.</p>
+                    <p class="text-muted"><b>NOSSOS VALORES:</b> Honestidade, Profissionalismo, Ética, Comprometimento, Reconhecimento.</p>
+                    <p class="text-muted"><a href="#vantagensModal4" data-toggle="modal">Um pouco mais sobre a Infodigital</a></p>
+                </div>
+            </div>
+        </div>
+	</div>
+<!--    </section> -->
+
     <!-- Vantagens Modal 1 -->
     <div class="portfolio-modal modal fade" id="vantagensModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
@@ -508,7 +522,34 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </div>
 
-	
+    <!-- Vantagens Modal 4 -->
+    <div class="portfolio-modal modal fade" id="vantagensModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Um pouco da história da Infodigital</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive img-centered" src="images/logo_infodigital360.png" alt="" width="150" height="28">
+                            <img class="img-responsive img-centered" src="images/logo_infodigital360.png" alt="" width="150" height="28">
+                            <p>A Infodigital nasceu em 4 de Maio de 2001. É Pioneira no Brasil com serviços em Tour Virtual 360 graus (inclusive quando os programas ainda eram em Java) e conteúdos para websites. </p>
+							<p>Sediada em São Paulo, ao longo destes anos, prestou serviços em diversas localidades e ramos de empreendimentos, como o “Primeiro Tour Virtual 360°” em locais como: Ilha de Fernando de Noronha, Ilha Bela, Morro de São Paulo na Bahia, Rio Grande do Norte em diversos Hotéis, Coca-Cola em Ribeirão Preto, Observatório Nacional no Rio de Janeiro, Teatro Municipal e Parque do Ibirapuera em São Paulo; enfim, diversos ramos e locais do Brasil. </p>
+							<p>Com todos estes trabalhos ao longo de 15 anos de serviços por todo o Brasil, foi selecionada e Certificada pelo Google, como “Agência de Confiança”, para o programa do Google Business View,( Agencia Infodigital360° ), site <a href="http://www.infodigital.com.br" target="_blank">www.infodigital.com.br</a> </p>
+                            <br>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
 
