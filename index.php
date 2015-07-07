@@ -98,19 +98,44 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
 			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
+			<li data-target="#myCarousel" data-slide-to="7"></li>
+			<li data-target="#myCarousel" data-slide-to="8"></li>
+			<li data-target="#myCarousel" data-slide-to="9"></li>
 		</ol>
 
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="images/banner01_normal-opt.jpg" alt="Sua empresa em 360° no Google Maps!">
+				<img src="images/banner01.jpg" alt="">
 			</div>
-
 			<div class="item">
-				<img src="images/banner02_normal-opt.jpg" alt="Todas as informações de seu empreendimento para acesso rápido">
+				<img src="images/banner02.jpg" alt="">
 			</div>
-
 			<div class="item">
-				<img src="images/banner03_normal-opt.jpg" alt="24 Horas por dia, no Google, acesso rápido em todos os dispositivos!!">
+				<img src="images/banner03.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="images/banner04.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="images/banner05.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="images/banner06.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="images/banner07.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="images/banner08.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="images/banner09.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="images/banner10.jpg" alt="">
 			</div>
 		</div>
 
