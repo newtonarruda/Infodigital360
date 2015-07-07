@@ -1,5 +1,5 @@
 <?php
-$subjectPrefix = '[Contato via Site]';
+$subjectPrefix = '[Contato via Infodigital360]';
 $emailTo = 'waldemararruda@gmail.com';
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = stripslashes(trim($_POST['form-name']));
@@ -253,6 +253,93 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </section>
 -->
+
+    <!-- Videos Section -->
+    <section id="videos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Videos</h2>
+                    <h3 class="section-subheading text-muted">Veja alguns videos mostrando o Google Business View e como voce pode aumentar a visibilidade de seu empreendimento</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 videos-item">
+                    <a href="#videosModal1" class="videos-link" data-toggle="modal">
+                        <div class="videos-hover">
+                            <div class="videos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="videos/video01_thumb.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="videos-caption">
+                        <h4>Veja a completa integração entre Google Maps e Google Business View</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 videos-item">
+                    <a href="#videosModal2" class="videos-link" data-toggle="modal">
+                        <div class="videos-hover">
+                            <div class="videos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="videos/video02_thumb.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="videos-caption">
+                        <h4>Depoimentos e relatos  sobre o Google Busines View no mundo</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 videos-item">
+                    <a href="#videosModal3" class="videos-link" data-toggle="modal">
+                        <div class="videos-hover">
+                            <div class="videos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="videos/video03_thumb.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="videos-caption">
+                        <h4>Google Business View - Passeando pelo restaurante</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 videos-item">
+                    <a href="#videosModal4" class="videos-link" data-toggle="modal">
+                        <div class="videos-hover">
+                            <div class="videos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="videos/video04_thumb.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="videos-caption">
+                        <h4>Google Business View - Passeando pela loja de calçados</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 videos-item">
+                    <a href="#videosModal5" class="videos-link" data-toggle="modal">
+                        <div class="videos-hover">
+                            <div class="videos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="videos/video05_thumb.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="videos-caption">
+                        <h4>Google Business View - Passeando pelo salão de beleza</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Dúvidas Section -->
     <section id="duvidas">
         <div class="container">
@@ -437,7 +524,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <p class="text-muted"><b>NOSSA MISSÃO:</b> Incluir CLIENTES nos mecanismos de Marketing e Busca via Web do Google,  com a melhor solução para atingir aumento de vendas.</p>
                     <p class="text-muted"><b>OBJETIVO:</b> A máxima satisfação de nossos clientes.</p>
                     <p class="text-muted"><b>NOSSOS VALORES:</b> Honestidade, Profissionalismo, Ética, Comprometimento, Reconhecimento.</p>
-                    <p class="text-muted"><a href="#vantagensModal4" data-toggle="modal">Um pouco mais sobre a Infodigital</a></p>
+                    <p class="text-muted"><a href="#historiaModal1" data-toggle="modal">Um pouco mais sobre a Infodigital</a></p>
                 </div>
             </div>
         </div>
@@ -549,6 +636,175 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </div>
     </div>	
+
+    <!-- História Infodigital Modal 1 -->
+    <div class="portfolio-modal modal fade" id="historiaModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Um pouco da história da Infodigital</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img src="images/Logo vetor 360.png" alt="Infodigital Tecnologia em Informática." width="140" height="93">
+                            <p>A Infodigital nasceu em 4 de Maio de 2001. É Pioneira no Brasil com serviços em Tour Virtual 360 graus (inclusive quando os programas ainda eram em Java) e conteúdos para websites. </p>
+							<p>Sediada em São Paulo, ao longo destes anos, prestou serviços em diversas localidades e ramos de empreendimentos, como o “Primeiro Tour Virtual 360°” em locais como: Ilha de Fernando de Noronha, Ilha Bela, Morro de São Paulo na Bahia, Rio Grande do Norte em diversos Hotéis, Coca-Cola em Ribeirão Preto, Observatório Nacional no Rio de Janeiro, Teatro Municipal e Parque do Ibirapuera em São Paulo; enfim, diversos ramos e locais do Brasil. </p>
+							<p>Com todos estes trabalhos ao longo de 15 anos de serviços por todo o Brasil, foi selecionada e Certificada pelo Google, como “Agência de Confiança”, para o programa do Google Business View,( Agencia Infodigital360° ), site <a href="http://www.infodigital.com.br" target="_blank">www.infodigital.com.br</a> </p>
+                            <br>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+
+   <!-- Videos Modal 1 -->
+    <div class="portfolio-modal modal fade" id="videosModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+							<div align="center" class="embed-responsive embed-responsive-16by9">
+								<video width="320" height="240" controls>
+									<source src="videos/video01.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+							</div>		
+							<br>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+ 
+   <!-- Videos Modal 2 -->
+    <div class="portfolio-modal modal fade" id="videosModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+							<div align="center" class="embed-responsive embed-responsive-16by9">
+								<video width="320" height="240" controls>
+									<source src="videos/video02.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+							</div>		
+							<br>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+ 
+   <!-- Videos Modal 3 -->
+    <div class="portfolio-modal modal fade" id="videosModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+							<div align="center" class="embed-responsive embed-responsive-16by9">
+								<video width="320" height="240" controls>
+									<source src="videos/video03.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+							</div>		
+							<br>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+ 
+   <!-- Videos Modal 4 -->
+    <div class="portfolio-modal modal fade" id="videosModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+							<div align="center" class="embed-responsive embed-responsive-16by9">
+								<video width="320" height="240" controls>
+									<source src="videos/video04.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+							</div>		
+							<br>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+ 
+   <!-- Videos Modal 5 -->
+    <div class="portfolio-modal modal fade" id="videosModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+							<div align="center" class="embed-responsive embed-responsive-16by9">
+								<video width="320" height="240" controls>
+									<source src="videos/video05.mp4" type="video/mp4">
+									Your browser does not support the video tag.
+								</video>
+							</div>		
+							<br>
+							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+
     <!-- jQuery -->
     <script src="js/jquery.min.js"></script>
 
