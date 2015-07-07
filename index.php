@@ -492,7 +492,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 						<div class="form-group">
 							<div class="col-lg-offset-2 col-lg-10">
 								<button type="submit" class="btn btn-primary">Enviar</button>
-								<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
 							</div>
 						</div>
 					</form>
