@@ -103,16 +103,18 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			<li data-target="#myCarousel" data-slide-to="6"></li>
 			<li data-target="#myCarousel" data-slide-to="7"></li>
 			<li data-target="#myCarousel" data-slide-to="8"></li>
-			<li data-target="#myCarousel" data-slide-to="9"></li>
+<!--			<li data-target="#myCarousel" data-slide-to="9"></li> -->
 		</ol>
 
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
 				<img src="images/banner01.jpg" alt="">
 			</div>
+<!--
 			<div class="item">
 				<img src="images/banner02.jpg" alt="">
 			</div>
+-->
 			<div class="item">
 				<img src="images/banner03.jpg" alt="">
 			</div>
