@@ -229,6 +229,93 @@ h1 {
         margin: 0 0 30px;
     }
 }
+
+#trabalhos .trabalhos-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#trabalhos .trabalhos-item .trabalhos-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#trabalhos .trabalhos-item .trabalhos-link .trabalhos-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(254,209,54,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#trabalhos .trabalhos-item .trabalhos-link .trabalhos-hover:hover {
+    opacity: 1;
+}
+
+#trabalhos .trabalhos-item .trabalhos-link .trabalhos-hover .trabalhos-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #4e81ff;
+}
+
+#trabalhos .trabalhos-item .trabalhos-link .trabalhos-hover .trabalhos-hover-content i {
+    margin-top: -12px;
+}
+
+#trabalhos .trabalhos-item .trabalhos-link .trabalhos-hover .trabalhos-hover-content h3,
+#trabalhos .trabalhos-item .trabalhos-link .trabalhos-hover .trabalhos-hover-content h4 {
+    margin: 0;
+}
+
+#trabalhos .trabalhos-item .trabalhos-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, #85adff 0%, #4e81ff 100%);
+    background-image:      -o-linear-gradient(top, #85adff 0%, #4e81ff 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#85adff), to(#4e81ff));
+    background-image:         linear-gradient(to bottom, #85adff 0%, #4e81ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff85adff', endColorstr='#ff4e81ff', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+}
+
+#trabalhos .trabalhos-item .trabalhos-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#trabalhos .trabalhos-item .trabalhos-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#trabalhos * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #trabalhos .trabalhos-item {
+        margin: 0 0 30px;
+    }
+}
+
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;

@@ -1,32 +1,4 @@
-<?php
-$subjectPrefix = '[Contato via Infodigital360]';
-$emailTo = 'waldemararruda@gmail.com';
-if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $name    = stripslashes(trim($_POST['form-name']));
-    $email   = stripslashes(trim($_POST['form-email']));
-    $subject = stripslashes(trim($_POST['form-subject']));
-    $message = stripslashes(trim($_POST['form-message']));
-    $pattern  = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
-    if (preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $subject)) {
-        die("Header injection detected");
-    }
-    $emailIsValid = preg_match('/^[^0-9][A-z0-9._%+-]+([.][A-z0-9_]+)*[@][A-z0-9_]+([.][A-z0-9_]+)*[.][A-z]{2,4}$/', $email);
-    if($name && $email && $emailIsValid && $subject && $message){
-        $subject = "$subjectPrefix $subject";
-        $body = "Nome: $name <br /> Email: $email <br /> Mensagem: $message";
-        $headers  = 'MIME-Version: 1.1' . PHP_EOL;
-        $headers .= 'Content-type: text/html; charset=utf-8' . PHP_EOL;
-        $headers .= "From: $name <$email>" . PHP_EOL;
-        $headers .= "Return-Path: $emailTo" . PHP_EOL;
-        $headers .= "Reply-To: $email" . PHP_EOL;
-        $headers .= "X-Mailer: PHP/". phpversion() . PHP_EOL;
-        mail($emailTo, $subject, $body, $headers);
-        $emailSent = true;
-    } else {
-        $hasError = true;
-    }
-}
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -69,21 +41,21 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 					</li>
 					<li>
-						<a class="page-scroll" href="#gbv"><span class="glyphicon glyphicon-ok"></span> &nbsp; Google Business View</a>
+						<a class="page-scroll" href="http://www.infodigital360.com.br/#gbv"><span class="glyphicon glyphicon-ok"></span> &nbsp; Google Business View</a>
 					</li>
 					<li>
-						<a class="page-scroll" href="#vantagens"><span class="glyphicon glyphicon-star"></span> &nbsp; Vantagens</a>
+						<a class="page-scroll" href="http://www.infodigital360.com.br/#vantagens"><span class="glyphicon glyphicon-star"></span> &nbsp; Vantagens</a>
 					</li>
 <!--
 					<li>
-						<a class="page-scroll" href="#relatos"><span class="glyphicon glyphicon-comment"></span></span> &nbsp; Relatos</a>
+						<a class="page-scroll" href="www.infodigital360.com.br/#relatos"><span class="glyphicon glyphicon-comment"></span></span> &nbsp; Relatos</a>
 					</li>
 -->
 					<li>
-						<a class="page-scroll" href="#duvidas"><span class="glyphicon glyphicon-question-sign"></span> &nbsp; Dúvidas Frequentes</a>
+						<a class="page-scroll" href="http://www.infodigital360.com.br/#duvidas"><span class="glyphicon glyphicon-question-sign"></span> &nbsp; Dúvidas Frequentes</a>
 					</li>
 					<li>
-						<a class="page-scroll" href="#contato"><span class="glyphicon glyphicon-user"></span> &nbsp; Contato</a>
+						<a class="page-scroll" href="http://www.infodigital360.com.br/#contato"><span class="glyphicon glyphicon-user"></span> &nbsp; Contato</a>
 					</li>
                     <img class="navbar-right" src="images/TA-Badge-v1-BR-sm.png" alt="Agência de confiança Google" width="140" height="140">
 					<br>
@@ -96,443 +68,241 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		</div> 
 		<!-- /.container-fluid -->
 	</nav>
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-			<li data-target="#myCarousel" data-slide-to="3"></li>
-			<li data-target="#myCarousel" data-slide-to="4"></li>
-			<li data-target="#myCarousel" data-slide-to="5"></li>
-			<li data-target="#myCarousel" data-slide-to="6"></li>
-			<li data-target="#myCarousel" data-slide-to="7"></li>
-			<li data-target="#myCarousel" data-slide-to="8"></li>
-<!--			<li data-target="#myCarousel" data-slide-to="9"></li> -->
-		</ol>
 
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img src="images/banner01.jpg" alt="">
-			</div>
+    <!-- trabalhos Section -->
+    <section id="trabalhos">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Trabalhos Realizados</h2>
+                    <h3 class="section-subheading text-muted">Veja alguns de nossos trabalhos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="https://www.google.com.br/maps/place/A+Lajota/@-23.6039646,-46.6373566,3a,75y,357.83h,90t/data=!3m7!1e1!3m5!1sDG9vwVNwvzkAAAQukAMF-w!2e0!3e2!7i9000!8i4500!4m2!3m1!1s0x0:0x481d465bafa89c2d!6m1!1e1" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/trabalhos/a_lajota.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>A Lajota</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="https://www.google.com.br/maps/place/Hooters/@-23.5797023,-46.5945851,3a,75y,238.9h,90t/data=!3m7!1e1!3m5!1s7E-e0b_cDEcAAAQq2wdlmQ!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0x789ecbb02033bbf9!6m1!1e1" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/trabalhos/hooters_mooca.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Hooters - Shooping Mooca</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="https://www.google.com.br/maps/place/Lellis+Trattoria+Campinas/@-23.5734479,-46.6604208,3a,75y,165.71h,90t/data=!3m7!1e1!3m5!1sTkSr6yEgM3cAAAQq3u3tnw!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0x1eb5a2281d847614!6m1!1e1" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/trabalhos/lellis_trattoria_campinas.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Lellis Trattoria Campinas</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="https://www.google.com.br/maps/place/Jaber+-+Para%C3%ADso/@-23.5779543,-46.6410938,3a,75y,265.97h,90t/data=!3m7!1e1!3m5!1shlepfaaCocEAAAQq3Rrang!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0xb9adc8f35a461842!6m1!1e1" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/trabalhos/jaber_paraiso.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Jaber - Paraiso</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="https://www.google.com.br/maps/place/Jaber+Bar+e+Restaurante/@-23.5875057,-46.6446493,3a,75y,158.89h,90t/data=!3m7!1e1!3m5!1sFXaBQnkodhEAAAQq3LDeHQ!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0xa44ecd429ce1612d!6m1!1e1" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/trabalhos/jaber_vila_mariana.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Jaber - Vila Mariana</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="https://www.google.com.br/maps/place/Jt+Burger/@-23.5869495,-46.6436245,3a,75y,184.15h,90t/data=!3m7!1e1!3m5!1sUZQ4ICnAl7UAAAQq3tkE3A!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0x830669468aa03bfd!6m1!1e1" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/trabalhos/jt_burger.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>JT Burger</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
 <!--
-			<div class="item">
-				<img src="images/banner02.jpg" alt="">
-			</div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/hooters_mooca.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/hooters_vila_olimpia.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/a_lajota.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/hooters_mooca.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/hooters_vila_olimpia.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/a_lajota.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/hooters_mooca.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/hooters_vila_olimpia.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 trabalhos-item">
+                    <a href="" class="trabalhos-link" target="_blank">
+                        <div class="trabalhos-hover">
+                            <div class="trabalhos-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="trabalhos/a_lajota.jpg" class="img-responsive img-rounded" alt="">
+                    </a>
+                    <div class="trabalhos-caption">
+                        <h4>Cliente</h4>
+                        <p class="text-muted"></p>
+                    </div>
+                </div>
+            </div>
 -->
-			<div class="item">
-				<img src="images/banner03.jpg" alt="">
-			</div>
-			<div class="item">
-				<img src="images/banner04.jpg" alt="">
-			</div>
-			<div class="item">
-				<img src="images/banner05.jpg" alt="">
-			</div>
-			<div class="item">
-				<img src="images/banner06.jpg" alt="">
-			</div>
-			<div class="item">
-				<img src="images/banner07.jpg" alt="">
-			</div>
-			<div class="item">
-				<img src="images/banner08.jpg" alt="">
-			</div>
-			<div class="item">
-				<img src="images/banner09.jpg" alt="">
-			</div>
-			<div class="item">
-				<img src="images/banner10.jpg" alt="">
-			</div>
-		</div>
-
-		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>
-	
-    <!-- Google Business View Section -->
-    <section id="gbv">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sua empresa em 360° no Google Maps</h2>
-                    <h3 class="section-subheading text-muted">
-						O Google Maps Business View é um tour virtual interativo de seu empreendimento, em 360 graus, de alta qualidade, otimizado pela tecnologia Street View. 
-						Mostrando sua empresa, seus produtos e serviços, aumenta consideravelmente as facilidades de busca e exposição de seu negócio.
-					</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-						<img src="images/entre_contato.jpg" class="img-rounded" alt="Agência de confiança Google" width="150" height="112">
-                    </span>
-                    <h4 class="service-heading">1º Passo</h4>
-                    <p class="text-muted">Entre em contato com a nossa equipe de vendas.</p>
-					<p class="text-muted">(11) 2061-7549</p>
-					<p class="text-muted">(11) 99636-3132</p>
-					<p class="text-muted">E-mail: <a class="page-scroll" href="#contato">vendas@infodigital.com.br</a></p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="images/agende_sessao.jpg" class="img-rounded" alt="Agência de confiança Google" width="150" height="112">
-                    </span>
-                    <h4 class="service-heading">2º Passo</h4>
-                    <p class="text-muted">Agende uma sessão de fotos quando for mais conveniente para sua empresa.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="images/nossa_equipe_edit.jpg" class="img-rounded" alt="Agência de confiança Google" width="150" height="112">
-                    </span>
-                    <h4 class="service-heading">3º Passo</h4>
-                    <p class="text-muted">Relaxe ! Nossa equipe vai processar suas fotos do Business View e exibí-las no Google.</p>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- Vantagens Section -->
-    <section id="vantagens">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Vantagens para sua empresa</h2>
-					<div class="text-left bg-light-gray">
-							<li>Estar bem posicionado e aparecer com as suas principais informações na maior ferramenta de divulgação web do mundo, o Google.</li>
-							<li>Certeza de estar nos principais serviços do Google (Google Maps, Google Pesquisa e Google +).</li>
-							<li>Aumentar o número de visitas diárias à sua página.</li>
-							<li>Aumentar o número de clientes e o consequente sucesso de seu empreendimento.</li>
-							<li>Uma vitrine virtual de seus produtos e serviços 24 horas por dia.</li>
-							<li>Compartilhe seu tour virtual no facebook.</li>
-							<li>Baixo investimento ! Pagamento único, sem taxas ou manutenções mensais.</li>
-							<li>Seu Business View ficará no servidor do Google.</li>
-							<li>Incorpore o tour virtual no site de sua empresa, sem custos adicionais.</li>
-							<li>Compatível com todas as mídias existentes: tablets, computadores, smartphones e notebooks.</li>
-							<li>Possibilidade de inclusão no Google, de fotos profissionais de seu local e produtos.</li>
-					</div>
-                </div>
-            </div>
-			<br>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 vantagens-item">
-                    <a href="#vantagensModal1" class="vantagens-link" data-toggle="modal">
-                        <div class="vantagens-hover">
-                            <div class="vantagens-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/vantagens/img01.png" class="img-responsive img-rounded" alt="">
-                    </a>
-                    <div class="vantagens-caption">
-                        <h4>Aumente o engajamento on-line com sua empresa</h4>
-                        <p class="text-muted"></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 vantagens-item">
-                    <a href="#vantagensModal2" class="vantagens-link" data-toggle="modal">
-                        <div class="vantagens-hover">
-                            <div class="vantagens-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/vantagens/img02.png" class="img-responsive img-rounded" alt="">
-                    </a>
-                    <div class="vantagens-caption">
-                        <h4>Convide os clientes a entrar no seu estabelecimento e ver o ambiente e a decoração com a navegação familiar do Street View</h4>
-                        <p class="text-muted"></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 vantagens-item">
-                    <a href="#vantagensModal3" class="vantagens-link" data-toggle="modal">
-                        <div class="vantagens-hover">
-                            <div class="vantagens-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="images/vantagens/img03.png" class="img-responsive img-rounded" alt="">
-                    </a>
-                    <div class="vantagens-caption">
-                        <h4>Adicione fotos de alta qualidade do seu local em todo o Google</h4>
-                        <p class="text-muted"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</section>
-
-    <!-- Relatos Section -->
-<!--
-    <section id="relatos">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Relatos</h2>
-                    <h3 class="section-subheading text-muted">Texto 01</h3>
-                </div>
-            </div>
-			<div align="center" class="embed-responsive embed-responsive-16by9">
-				<video width="320" height="240" controls>
-					<source src="videos/Testimonial Video V7_2014.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video>
-			</div>		
-        </div>
-    </section>
--->
-
-    <!-- Videos Section -->
-    <section id="videos">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Videos</h2>
-                    <h3 class="section-subheading text-muted">Veja alguns videos mostrando o Google Business View e como voce pode aumentar a visibilidade de seu empreendimento</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 videos-item">
-                    <a href="#videosModal1" class="videos-link" data-toggle="modal">
-                        <div class="videos-hover">
-                            <div class="videos-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="videos/video01_thumb.jpg" class="img-responsive img-rounded" alt="">
-                    </a>
-                    <div class="videos-caption">
-                        <h4>Veja a completa integração entre Google Maps e Google Business View</h4>
-                        <p class="text-muted"></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 videos-item">
-                    <a href="#videosModal2" class="videos-link" data-toggle="modal">
-                        <div class="videos-hover">
-                            <div class="videos-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="videos/video02_thumb.jpg" class="img-responsive img-rounded" alt="">
-                    </a>
-                    <div class="videos-caption">
-                        <h4>Depoimentos e relatos  sobre o Google Busines View no mundo</h4>
-                        <p class="text-muted"></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 videos-item">
-                    <a href="#videosModal3" class="videos-link" data-toggle="modal">
-                        <div class="videos-hover">
-                            <div class="videos-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="videos/video03_thumb.jpg" class="img-responsive img-rounded" alt="">
-                    </a>
-                    <div class="videos-caption">
-                        <h4>Google Business View - Passeando pelo restaurante</h4>
-                        <p class="text-muted"></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 videos-item">
-                    <a href="#videosModal4" class="videos-link" data-toggle="modal">
-                        <div class="videos-hover">
-                            <div class="videos-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="videos/video04_thumb.jpg" class="img-responsive img-rounded" alt="">
-                    </a>
-                    <div class="videos-caption">
-                        <h4>Google Business View - Passeando pela loja de calçados</h4>
-                        <p class="text-muted"></p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 videos-item">
-                    <a href="#videosModal5" class="videos-link" data-toggle="modal">
-                        <div class="videos-hover">
-                            <div class="videos-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="videos/video05_thumb.jpg" class="img-responsive img-rounded" alt="">
-                    </a>
-                    <div class="videos-caption">
-                        <h4>Google Business View - Passeando pelo salão de beleza</h4>
-                        <p class="text-muted"></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Dúvidas Section -->
-    <section id="duvidas">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Dúvidas Frequentes</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-			<div class="panel-group" id="accordion">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Onde as pessoas visualizam o Business View?</a>
-						</h4>
-					</div>
-					<div id="collapseOne" class="panel-collapse collapse">
-						<div class="panel-body">
-							O Business View aparece nos resultados da Pesquisa do Google, no Google Maps e no Google+, em computadores, smartphones ou tablets. 
-							<br>
-							Você também pode incorporar o Business View no seu website e acompanhar o engajamento com o Google Analytics e Google Maps Business View.  
-						</div>
-						<img src="images/vantagens/img01.png" class="img-responsive" alt="">
-					</div>
-				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">O Business View pode ser incorporado no meu website?</a>
-						</h4>
-					</div>
-					<div id="collapseTwo" class="panel-collapse collapse">
-						<div class="panel-body">
-							Sim, o Business View pode ser incorporado no seu website e acompanhar o engajamento com o Google Analytics
-						</div>
-					</div>
-				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Quanto tempo leva o processo do Business View?</a>
-						</h4>
-					</div>
-					<div id="collapseThree" class="panel-collapse collapse">
-						<div class="panel-body">
-							As sessões de fotos do Business View dependem da programação do seu
-							estabelecimento e são projetadas para causar o mínimo impacto das suas
-							operações. Elas são concluídas geralmente em algumas horas. 
-							<br><br>
-							Depois da sessão, é	só aguardar. Nossa equipe fará o upload das imagens em alta resolução no Google.
-							<br><br>
-							Todas as suas fotos do Business View serão exibidas no Google em apenas alguns dias.
-						</div>
-					</div>
-				</div>
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Por que incorporar o Business View?</a>
-						</h4>
-					</div>
-					<div id="collapseFour" class="panel-collapse collapse">
-						<div class="panel-body">
-							Aumentar o engajamento on-line com sua empresa. 
-							<br>
-							Convide os clientes a entrar no seu estabelecimento e ver o ambiente e a decoração com a navegação familiar do Street View.
-							<br>
-							Adicione fotografias de alta qualidade de seu local em todo o Google. 
-						</div>
-					</div>
-				</div>
-<!--
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Como o programa Business View funciona?</a>
-						</h4>
-					</div>
-					<div id="collapseFive" class="panel-collapse collapse">
-						<div class="panel-body">
-							O Google treina e certifica fotógrafos independentes e agências de fotografia para realizar sessões de fotos do Business View com equipamentos profissionais qualificados. 
-						</div>
-					</div>
-				</div>
--->
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Qual é o valor do Business View?</a>
-						</h4>
-					</div>
-					<div id="collapseSix" class="panel-collapse collapse">
-						<div class="panel-body">
-							O sistema de preços pode variar entre os fornecedores, e isso depende do tamanho da área dos locais e quantidade de pontos. Entre em contato com nosso setor de vendas para saber o sistema de preços.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-    <!-- Contato Section -->
-    <section id="contato">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Entre em contato</h2>
-                    <h3 class="section-subheading text-muted"></h3>
-                </div>
-            </div>
-			
-			<?php if(!empty($emailSent)): ?>
-				<div class="col-md-6 col-md-offset-3">
-					<div class="alert alert-success text-center">Sua mensagem foi enviada com sucesso.</div>
-				</div>
-			<?php else: ?>
-				<?php if(!empty($hasError)): ?>
-				<div class="col-md-5 col-md-offset-4">
-					<div class="alert alert-danger text-center">Houve um erro no envio, tente novamente mais tarde.</div>
-				</div>
-				<?php endif; ?>
-			
-            <div class="row">
-				<div class="col-lg-12">
-					<form action="<?php echo $_SERVER['REQUEST_URI']; ?>" id="contact-form" class="form-horizontal" role="form" method="post">
-						<div class="form-group">
-							<label for="name" class="col-lg-2 control-label">Nome</label>
-							<div class="col-lg-10">
-								<input type="text" class="form-control required" id="form-name" name="form-name" placeholder="Nome" />
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="email" class="col-lg-2 control-label">Email</label>
-							<div class="col-lg-10">
-								<input type="email" class="form-control required" id="form-email" name="form-email" placeholder="Email" />
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="assunto" class="col-lg-2 control-label">Assunto</label>
-							<div class="col-lg-10">
-								<input type="text" class="form-control required" id="form-subject" name="form-subject" placeholder="Assunto" />
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="mensagem" class="col-lg-2 control-label">Mensagem</label>
-							<div class="col-lg-10">
-								<textarea class="form-control required" rows="3" id="form-message" name="form-message" placeholder="Mensagem" /></textarea>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-lg-offset-2 col-lg-10">
-								<button type="submit" class="btn btn-primary">Enviar</button>
-							</div>
-						</div>
-					</form>
-                </div>
-				<?php endif; ?>
-
-			</div>
-        </div>
-    </section>
-	
     <!-- Rodapé Section -->
 <!--    <section id="rodape" class="bg-light-gray"> -->
 	<div class="div-rodape bg-light-gray">
