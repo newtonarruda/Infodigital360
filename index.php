@@ -192,10 +192,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <h4 class="service-heading">3º Passo</h4>
                     <p class="text-muted">Relaxe ! Nossa equipe vai processar suas fotos do Business View e exibí-las no Google.</p>
                 </div>
-				<br>
-				<a class="page-scroll" href="listaTrabalhos.html"><h2 class="section-heading">Trabalhos Realizados</h2></a>
             </div>
         </div>
+		<br>
+		<a class="text-center" href="listaTrabalhos.html"><h2 class="section-heading">Trabalhos Realizados</h2></a>
     </section>
 
     <!-- Vantagens Section -->
