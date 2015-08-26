@@ -69,7 +69,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 					</li>
 					<li>
-						<a class="page-scroll" href="#gbv"><span class="glyphicon glyphicon-ok"></span> &nbsp; Google Business View</a>
+						<a class="page-scroll" href="#gbv"><span class="glyphicon glyphicon-home"></span> &nbsp; Google Business View</a>
 					</li>
 					<li>
 						<a class="page-scroll" href="#vantagens"><span class="glyphicon glyphicon-star"></span> &nbsp; Vantagens</a>
@@ -88,7 +88,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <img class="navbar-right" src="images/TA-Badge-v1-BR-sm.png" alt="Agência de confiança Google" width="140" height="140">
 					<br>
 					<li>
-						<a class="page-scroll" href="listaTrabalhos.html"><span class="glyphicon glyphicon-question-sign"></span> &nbsp; Trabalhos Realizados</a>
+						<a class="page-scroll" href="listaTrabalhos.html"><span class="glyphicon glyphicon-ok"></span> &nbsp; Trabalhos Realizados</a>
 					</li>
 				</ul>
 			</div>
@@ -192,6 +192,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <h4 class="service-heading">3º Passo</h4>
                     <p class="text-muted">Relaxe ! Nossa equipe vai processar suas fotos do Business View e exibí-las no Google.</p>
                 </div>
+				<br>
+				<a class="page-scroll" href="listaTrabalhos.html"><h2 class="section-heading">Trabalhos Realizados</h2></a>
             </div>
         </div>
     </section>
