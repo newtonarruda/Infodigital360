@@ -195,7 +195,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
 			<br>
 			<br>
-			<a class="text-center" href="listaTrabalhos.html"><h2 class="section-heading">Trabalhos Realizados</h2></a>
+			<a class="row col-lg-12 text-center" href="listaTrabalhos.html"><h2 class="section-heading">Trabalhos Realizados</h2></a>
         </div>
     </section>
 
