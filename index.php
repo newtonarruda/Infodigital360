@@ -49,8 +49,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 </head>
 <body id="page-top">
+
 	<nav class="navbar navbar-default navbar-fixed-top margin-bottom">
-		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header page-scroll">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -85,15 +85,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 					<li>
 						<a class="page-scroll" href="#contato"><span class="glyphicon glyphicon-user"></span> &nbsp; Contato</a>
 					</li>
-                    <img class="navbar-right" src="images/TA-Badge-v1-BR-sm.png" alt="Agência de confiança Google" width="140" height="140">
+<!--                    <img class="navbar-right" src="images/TA-Badge-v1-BR-sm.png" alt="Agência de confiança Google" width="140" height="140"> -->
+					<img class="navbar-right" src="images/TrustedProBadge_Portuguese_BR_Portrait_A_P.png" alt="Agência de confiança Google">
 					<br>
 					<li>
 						<a class="page-scroll" href="listaTrabalhos.html"><span class="glyphicon glyphicon-ok"></span> &nbsp; Trabalhos Realizados</a>
 					</li>
-				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
-		</div> 
 		<!-- /.container-fluid -->
 	</nav>
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
