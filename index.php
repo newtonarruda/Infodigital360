@@ -553,7 +553,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <img src="images/logo_infodigital360.png" alt="Seu empreendimento no Google" width="150" height="28">
 					<br>
 					<br>
-                    <img src="images/TA-Badge-v1-BR-sm.png" alt="Agência de Confiança Google" width="140" height="140">
+<!--                    <img src="images/TA-Badge-v1-BR-sm.png" alt="Agência de Confiança Google" width="140" height="140"> -->
+                    <img src="images/TrustedProBadge_Portuguese_BR_Portrait_A_P.png" alt="Agência de Confiança Google">
                 </div>
                 <div class="col-md-4">
                     <p class="text-muted"><b>NOSSA MISSÃO:</b> Incluir CLIENTES nos mecanismos de Marketing e Busca via Web do Google,  com a melhor solução para atingir aumento de vendas.</p>
