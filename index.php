@@ -197,11 +197,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <p class="text-muted">Relaxe ! Nossa equipe vai processar suas fotos do Business View e exibí-las no Google.</p>
                 </div>
             </div>
+<!--
 			<div class="row">
                 <div class="col-lg-12 text-center">			
 					<a class="page-scroll" href="listaTrabalhos.html"><h2 class="section-heading">Trabalhos Realizados</h2></a>
 				</div>
 			</div>
+-->
         </div>
     </section>
 
