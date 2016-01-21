@@ -1,6 +1,6 @@
 <?php
 $subjectPrefix = '[Contato via Infodigital360]';
-$emailTo = 'waldemararruda@gmail.com';
+$emailTo = 'newton.arruda@gmail.com';
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $name    = stripslashes(trim($_POST['form-name']));
     $email   = stripslashes(trim($_POST['form-email']));
@@ -343,6 +343,109 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 							</div>
 						</div>
 					</div>
+				</div>				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseResort">Resort</a>
+						</h4>
+					</div>
+					<div id="collapseResort" class="panel-collapse collapse">
+						<div class="panel-body">
+				            <div class="row">
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/place/Hotel+Fazenda+7+Belo/@-22.565014,-46.538674,3a,75y,173.12h,78t/data=!3m8!1e1!3m6!1s3ZAx_a1biPgAAAQ0HHpEcA!2e0!3e2!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3D3ZAx_a1biPgAAAQ0HHpEcA%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D129%26h%3D106%26yaw%3D181.12579%26pitch%3D0!7i13312!8i6656!4m2!3m1!1s0x94c9159b71cf8bc9:0x46bb94178160c2f4!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/7_belo.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Hotel Fazenda 7 Belo</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+<!--
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4></h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4></h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+-->
+							</div>
+<!--
+				            <div class="row">
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4></h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4></h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4></h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+							</div>
+-->
+						</div>
+					</div>
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
@@ -398,6 +501,20 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 							</div>
 				            <div class="row">
 								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/place/Black+Dog/@-23.5666753,-46.6518499,3a,75y,339.42h,83.21t/data=!3m8!1e1!3m6!1seq3sPKF6vbQAAAQ0Bg6sSw!2e0!3e2!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3Deq3sPKF6vbQAAAQ0Bg6sSw%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D273.75543%26pitch%3D0!7i13312!8i6656!4m2!3m1!1s0x94ce59c765bc8e59:0x4132f9015528673e!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/black_dog_paulista.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>BalckDog Paulista</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
 									<a href="https://www.google.com.br/maps/place/Jaber+-+Para%C3%ADso/@-23.5779543,-46.6410938,3a,75y,265.97h,90t/data=!3m7!1e1!3m5!1shlepfaaCocEAAAQq3Rrang!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0xb9adc8f35a461842!6m1!1e1" class="trabalhos-link" target="_blank">
 										<div class="trabalhos-hover">
 											<div class="trabalhos-hover-content">
@@ -425,6 +542,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 										<p class="text-muted"></p>
 									</div>
 								</div>
+							</div>
+				            <div class="row">
 								<div class="col-md-4 col-sm-6 trabalhos-item">
 									<a href="https://www.google.com.br/maps/place/Jaber+-+Pinheiros/@-23.5638417,-46.6875176,3a,75y,232h,90t/data=!3m8!1e1!3m6!1sHTOBSMx2uWwAAAQuq1Nakw!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3DHTOBSMx2uWwAAAQuq1Nakw%26w%3D124%26h%3D75%26yaw%3D232%26pitch%3D0%26thumbfov%3D103%26ll%3D-23.563842,-46.687518!7i13312!8i6656!4m2!3m1!1s0x94ce579efe099c59:0xcdef59cd2faf918f!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
 										<div class="trabalhos-hover">
@@ -439,8 +558,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 										<p class="text-muted"></p>
 									</div>
 								</div>
-							</div>
-				            <div class="row">
 								<div class="col-md-4 col-sm-6 trabalhos-item">
 									<a href="https://www.google.com.br/maps/place/Jaber/@-23.6214367,-46.6889063,3a,75y,8h,90t/data=!3m8!1e1!3m6!1s0PexolLu9MoAAAQfDolWZw!2e0!3e2!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3D0PexolLu9MoAAAQfDolWZw%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D8.744236%26pitch%3D0!7i13312!8i6656!4m2!3m1!1s0x94ce50bf73c28d8b:0xe67c47e225194a1c!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
 										<div class="trabalhos-hover">
@@ -510,6 +627,20 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 										<p class="text-muted"></p>
 									</div>
 								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/@-23.5709618,-46.6226141,3a,75y,304.13h,76.64t/data=!3m7!1e1!3m5!1sub47n2r5Ny4AAAQ0MXbDtw!2e0!3e2!7i13312!8i6656!6m1!1e1" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/logo_castelo_magico.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Castelo Mágico</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
 							</div>
 							<div class="row">
 								<div class="col-md-4 col-sm-6 trabalhos-item">
@@ -551,6 +682,36 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 									</a>
 									<div class="trabalhos-caption">
 										<h4>Exclusiva Sex Shop - Loja 4</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/place/Globalmar+Aquecedores+e+Acess%C3%B3rios+para+Piscinas/@-23.5106136,-46.6246905,3a,75y,77.09h,76.95t/data=!3m8!1e1!3m6!1sw25YxQVyajIAAAQ0Ac7RPg!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3Dw25YxQVyajIAAAQ0Ac7RPg%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D129%26h%3D106%26yaw%3D107.43478%26pitch%3D0!7i13312!8i6656!4m2!3m1!1s0x94ce58839c2ec071:0xe62d1b67858ef49f!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/logo_globalmar.PNG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Globalmar</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/@-23.5018488,-46.5903566,3a,75y,71.92h,81.07t/data=!3m7!1e1!3m5!1smxvAU-5p8xgAAAQ0HEPmiA!2e0!3e2!7i13312!8i6656!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/sotomano.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Sotomano</h4>
 										<p class="text-muted"></p>
 									</div>
 								</div>
@@ -711,7 +872,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapsePadaria">Padarias</a>
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapsePadaria">Panificadoras</a>
 						</h4>
 					</div>
 					<div id="collapsePadaria" class="panel-collapse collapse">
@@ -745,6 +906,20 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 										<p class="text-muted"></p>
 									</div>
 								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/@-23.5728121,-46.6226321,3a,75y,136.43h,70.49t/data=!3m7!1e1!3m5!1sDEGB4VGM0H0AAAQ0Ac7UCw!2e0!3e2!7i13312!8i6656!6m1!1e1" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/la_fornatta.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Panificadora La Fornatta</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -773,30 +948,74 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 									</div>
 								</div>
 								<div class="col-md-4 col-sm-6 trabalhos-item">
-									<a href="https://www.google.com.br/maps/place/Cal%C3%A0+del+Grau+-+Cocina+de+espa%C3%B1a/@-23.5872291,-46.6446262,3a,75y,333.82h,90t/data=!3m7!1e1!3m5!1sm4EbRcLX6uYAAAQfr9IjlA!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0x154e3dc5b55c3687!6m1!1e1" class="trabalhos-link" target="_blank">
+									<a href="https://www.google.com.br/maps/@-23.5667026,-46.6526771,3a,75y,285.76h,82.32t/data=!3m7!1e1!3m5!1strzWRxwlH8kAAAQ0CO4Jzg!2e0!3e2!7i13312!8i6656!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
 										<div class="trabalhos-hover">
 											<div class="trabalhos-hover-content">
 												<i class="fa fa-plus fa-3x"></i>
 											</div>
 										</div>
-										<img src="images/trabalhos/cala_del_grau.JPG" class="img-responsive img-rounded" alt="">
+										<img src="images/trabalhos/america_al_santos.JPG" class="img-responsive img-rounded" alt="">
 									</a>
 									<div class="trabalhos-caption">
-										<h4>Calà del Grau</h4>
+										<h4>Restaurante América Al. Santos</h4>
 										<p class="text-muted"></p>
 									</div>
 								</div>
 								<div class="col-md-4 col-sm-6 trabalhos-item">
-									<a href="https://www.google.com.br/maps/place/Trattoria+do+Piero/@-23.5743897,-46.6587004,3a,75y,231h,90t/data=!3m8!1e1!3m6!1sF1geMAsbDywAAAQuoeHn8g!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3DF1geMAsbDywAAAQuoeHn8g%26w%3D124%26h%3D75%26yaw%3D231%26pitch%3D0%26thumbfov%3D103%26ll%3D-23.574390,-46.658700!7i10998!8i5499!4m2!3m1!1s0x94ce59c2f4d4439d:0xa92fa1bb20d0f2dc!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
+									<a href="https://www.google.com.br/maps/place/Villa+Roma+Pizzaria/@-23.5459189,-46.5714312,3a,75y,76h,90t/data=!3m8!1e1!3m6!1s4GIrerLVnjIAAAQzT6Qlhg!2e0!3e2!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3D4GIrerLVnjIAAAQzT6Qlhg%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D129%26h%3D106%26yaw%3D76.433769%26pitch%3D0!7i13312!8i6656!4m6!1m3!3m2!1s0x94ce5e94d55fc4bb:0xa4fa93d16ac33280!2sVilla+Roma+Pizzaria!3m1!1s0x94ce5e94d55fc4bb:0xa4fa93d16ac33280!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
 										<div class="trabalhos-hover">
 											<div class="trabalhos-hover-content">
 												<i class="fa fa-plus fa-3x"></i>
 											</div>
 										</div>
-										<img src="images/trabalhos/trattoria_piero.JPG" class="img-responsive img-rounded" alt="">
+										<img src="images/trabalhos/villa_roma_pizzaria.JPG" class="img-responsive img-rounded" alt="">
 									</a>
 									<div class="trabalhos-caption">
-										<h4>Trattoria do Piero</h4>
+										<h4>Villa Roma Pizzaria</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+							</div>
+				            <div class="row">
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/place/Veridiana/@-23.5344305,-46.6642204,3a,75y,65.65h,75.43t/data=!3m8!1e1!3m6!1sq6B_3awZ-IwAAAQo8YkY_g!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3Dq6B_3awZ-IwAAAQo8YkY_g%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D75.78746%26pitch%3D0!7i13312!8i6656!4m2!3m1!1s0x0:0x9c22666887bf19d!6m1!1e1" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/veridiana_perdizes.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Restaurante Veridiana Perdizes</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/@-23.5690543,-46.6570955,3a,75y,239.73h,83.67t/data=!3m7!1e1!3m5!1s9sxME5TS83oAAAQpdmYvVQ!2e0!3e2!7i13312!8i6656!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/veridiana_jardim_paulista.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Restaurante Veridiana Jardins</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/@-23.5452041,-46.6519488,3a,75y,98.31h,77.21t/data=!3m7!1e1!3m5!1sdxMPD1wZAyQAAAQn703jLA!2e0!3e2!7i13312!8i6656?hl=pt-BR" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/veridiana_higienopolis.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Restaurante Veridiana Higienópolis</h4>
 										<p class="text-muted"></p>
 									</div>
 								</div>
@@ -831,21 +1050,21 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 									</div>
 								</div>
 								<div class="col-md-4 col-sm-6 trabalhos-item">
-									<a href="https://www.google.com.br/maps/place/Veridiana/@-23.5344305,-46.6642204,3a,75y,65.65h,75.43t/data=!3m8!1e1!3m6!1sq6B_3awZ-IwAAAQo8YkY_g!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3Dq6B_3awZ-IwAAAQo8YkY_g%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D75.78746%26pitch%3D0!7i13312!8i6656!4m2!3m1!1s0x0:0x9c22666887bf19d!6m1!1e1" class="trabalhos-link" target="_blank">
+									<a href="https://www.google.com.br/maps/place/Pasta+Nostra+Ristorante/@-23.5877973,-46.6454184,3a,75y,257.94h,73.43t/data=!3m7!1e1!3m5!1s5GwigF16TOsAAAQo8ZKZiQ!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0x5e417a8ccbced994!6m1!1e1" class="trabalhos-link" target="_blank">
 										<div class="trabalhos-hover">
 											<div class="trabalhos-hover-content">
 												<i class="fa fa-plus fa-3x"></i>
 											</div>
 										</div>
-										<img src="images/trabalhos/veridiana_perdizes.JPG" class="img-responsive img-rounded" alt="">
+										<img src="images/trabalhos/pasta_nostra.JPG" class="img-responsive img-rounded" alt="">
 									</a>
 									<div class="trabalhos-caption">
-										<h4>Restaurante Veridiana Perdizes</h4>
+										<h4>Pasta Nostra Ristorante</h4>
 										<p class="text-muted"></p>
 									</div>
 								</div>
-							</div>
-				            <div class="row">
+				            </div>
+							<div class="row">
 								<div class="col-md-4 col-sm-6 trabalhos-item">
 									<a href="https://www.google.com.br/maps/place/Choppi/@-23.3968272,-45.8845838,3a,75y,295.41h,90t/data=!3m7!1e1!3m5!1szlXRGj5qeMQAAAQo8art9g!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0xa7f15d327ed7f7b0!6m1!1e1" class="trabalhos-link" target="_blank">
 										<div class="trabalhos-hover">
@@ -861,20 +1080,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 									</div>
 								</div>
 								<div class="col-md-4 col-sm-6 trabalhos-item">
-									<a href="https://www.google.com.br/maps/place/Pasta+Nostra+Ristorante/@-23.5877973,-46.6454184,3a,75y,257.94h,73.43t/data=!3m7!1e1!3m5!1s5GwigF16TOsAAAQo8ZKZiQ!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0x5e417a8ccbced994!6m1!1e1" class="trabalhos-link" target="_blank">
-										<div class="trabalhos-hover">
-											<div class="trabalhos-hover-content">
-												<i class="fa fa-plus fa-3x"></i>
-											</div>
-										</div>
-										<img src="images/trabalhos/pasta_nostra.JPG" class="img-responsive img-rounded" alt="">
-									</a>
-									<div class="trabalhos-caption">
-										<h4>Pasta Nostra Ristorante</h4>
-										<p class="text-muted"></p>
-									</div>
-								</div>
-								<div class="col-md-4 col-sm-6 trabalhos-item">
 									<a href="https://www.google.com.br/maps/place/Restaurante+Deck/@-23.3831812,-45.8926589,3a,75y,192.26h,83.34t/data=!3m8!1e1!3m6!1sNm7RsiFVb28AAAQo8aj_wQ!2e0!3e2!6s%2F%2Fgeo3.ggpht.com%2Fcbk%3Fpanoid%3DNm7RsiFVb28AAAQo8aj_wQ%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D129%26h%3D106%26yaw%3D222.76445%26pitch%3D0!7i13312!8i6656!4m2!3m1!1s0x0000000000000000:0xd145c5d40173bf3d!6m1!1e1" class="trabalhos-link" target="_blank">
 										<div class="trabalhos-hover">
 											<div class="trabalhos-hover-content">
@@ -885,6 +1090,36 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 									</a>
 									<div class="trabalhos-caption">
 										<h4>Restaurante Deck</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/place/Trattoria+do+Piero/@-23.5743897,-46.6587004,3a,75y,231h,90t/data=!3m8!1e1!3m6!1sF1geMAsbDywAAAQuoeHn8g!2e0!3e2!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fcb_client%3Dmaps_sv.tactile%26output%3Dthumbnail%26thumb%3D2%26panoid%3DF1geMAsbDywAAAQuoeHn8g%26w%3D124%26h%3D75%26yaw%3D231%26pitch%3D0%26thumbfov%3D103%26ll%3D-23.574390,-46.658700!7i10998!8i5499!4m2!3m1!1s0x94ce59c2f4d4439d:0xa92fa1bb20d0f2dc!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/trattoria_piero.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Trattoria do Piero</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/place/Cal%C3%A0+del+Grau+-+Cocina+de+espa%C3%B1a/@-23.5872291,-46.6446262,3a,75y,333.82h,90t/data=!3m7!1e1!3m5!1sm4EbRcLX6uYAAAQfr9IjlA!2e0!3e2!7i13312!8i6656!4m2!3m1!1s0x0:0x154e3dc5b55c3687!6m1!1e1" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/cala_del_grau.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Calà del Grau</h4>
 										<p class="text-muted"></p>
 									</div>
 								</div>
@@ -995,6 +1230,22 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 									</a>
 									<div class="trabalhos-caption">
 										<h4>Salão Masuaki</h4>
+										<p class="text-muted"></p>
+									</div>
+								</div>
+							</div>
+				            <div class="row">
+								<div class="col-md-4 col-sm-6 trabalhos-item">
+									<a href="https://www.google.com.br/maps/@-23.5719845,-46.6228675,3a,75y,257.46h,63.8t/data=!3m7!1e1!3m5!1sMxOjd92H-uEAAAQzzp5C_A!2e0!3e2!7i13312!8i6656!6m1!1e1?hl=pt-BR" class="trabalhos-link" target="_blank">
+										<div class="trabalhos-hover">
+											<div class="trabalhos-hover-content">
+												<i class="fa fa-plus fa-3x"></i>
+											</div>
+										</div>
+										<img src="images/trabalhos/terapia_funcional.JPG" class="img-responsive img-rounded" alt="">
+									</a>
+									<div class="trabalhos-caption">
+										<h4>Espaço Terapias Funcional</h4>
 										<p class="text-muted"></p>
 									</div>
 								</div>
