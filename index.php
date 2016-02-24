@@ -1,3 +1,4 @@
+<?php include_once("analyticstracking.php") ?>
 <?php
 $subjectPrefix = '[Contato via Infodigital360]';
 $emailTo = 'newton.arruda@gmail.com';
