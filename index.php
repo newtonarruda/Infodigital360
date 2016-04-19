@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height, maximum-scale=1, user-scalable=no">
 
-    <title>Infodigital GBV</title>
+    <title>INFODIGITAL 360 | Agência de Confiança Google</title>
 	    <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css" rel="stylesheet">
@@ -70,7 +70,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 					</li>
 					<li>
-						<a class="page-scroll" href="#gbv"><span class="glyphicon glyphicon-home"></span> &nbsp; Google Business View</a>
+						<a class="page-scroll" href="#gbv"><span class="glyphicon glyphicon-home"></span> &nbsp; Google Street View | Trusted</a>
 					</li>
 					<li>
 						<a class="page-scroll" href="#trabalhos"><span class="glyphicon glyphicon-ok"></span> &nbsp; Trabalhos Realizados</a>
@@ -160,14 +160,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 		</a>
 	</div>
 	
-    <!-- Google Business View Section -->
+    <!-- Google Street View | Trusted Section -->
     <section id="gbv">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Sua empresa em 360° no Google Maps</h2>
                     <h3 class="section-subheading text-muted">
-						O Google Maps Business View é um tour virtual interativo de seu empreendimento, em 360 graus, de alta qualidade, otimizado pela tecnologia Street View. 
+						O Google Street View | Trusted é um tour virtual interativo de seu empreendimento, em 360 graus, de alta qualidade, otimizado pela tecnologia Street View. 
 						Mostrando sua empresa, seus produtos e serviços, aumenta consideravelmente as facilidades de busca e exposição de seu negócio.
 					</h3>
                 </div>
@@ -195,7 +195,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <img src="images/nossa_equipe_edit.jpg" class="img-rounded" alt="Agência de confiança Google" width="150" height="112">
                     </span>
                     <h4 class="service-heading">3º Passo</h4>
-                    <p class="text-muted">Relaxe ! Nossa equipe vai processar suas fotos do Business View e exibí-las no Google.</p>
+                    <p class="text-muted">Relaxe ! Nossa equipe vai processar suas fotos do Google Street View | Trusted e exibí-las no Google.</p>
                 </div>
             </div>
 <!--
@@ -1272,7 +1272,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 							<li>Uma vitrine virtual de seus produtos e serviços 24 horas por dia.</li>
 							<li>Compartilhe seu tour virtual no facebook.</li>
 							<li>Baixo investimento ! Pagamento único, sem taxas ou manutenções mensais.</li>
-							<li>Seu Business View ficará no servidor do Google.</li>
+							<li>Seu Google Street View | Trusted ficará no servidor do Google.</li>
 							<li>Incorpore o tour virtual no site de sua empresa, sem custos adicionais.</li>
 							<li>Compatível com todas as mídias existentes: tablets, computadores, smartphones e notebooks.</li>
 							<li>Possibilidade de inclusão no Google, de fotos profissionais de seu local e produtos.</li>
@@ -1353,7 +1353,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Videos</h2>
-                    <h3 class="section-subheading text-muted">Veja alguns videos mostrando o Google Business View e como voce pode aumentar a visibilidade de seu empreendimento</h3>
+                    <h3 class="section-subheading text-muted">Veja alguns videos mostrando o Google Street View | Trusted e como voce pode aumentar a visibilidade de seu empreendimento</h3>
                 </div>
             </div>
             <div class="row">
@@ -1367,7 +1367,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <img src="videos/video01_thumb.jpg" class="img-responsive img-rounded" alt="">
                     </a>
                     <div class="videos-caption">
-                        <h4>Veja a completa integração entre Google Maps e Google Business View</h4>
+                        <h4>Veja a completa integração entre Google Maps e Google Street View | Trusted</h4>
                         <p class="text-muted"></p>
                     </div>
                 </div>
@@ -1395,7 +1395,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <img src="videos/video03_thumb.jpg" class="img-responsive img-rounded" alt="">
                     </a>
                     <div class="videos-caption">
-                        <h4>Google Business View - Passeando pelo restaurante</h4>
+                        <h4>Google Street View | Trusted - Passeando pelo restaurante</h4>
                         <p class="text-muted"></p>
                     </div>
                 </div>
@@ -1411,7 +1411,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <img src="videos/video04_thumb.jpg" class="img-responsive img-rounded" alt="">
                     </a>
                     <div class="videos-caption">
-                        <h4>Google Business View - Passeando pela loja de calçados</h4>
+                        <h4>Google Street View | Trusted - Passeando pela loja de calçados</h4>
                         <p class="text-muted"></p>
                     </div>
                 </div>
@@ -1425,7 +1425,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <img src="videos/video05_thumb.jpg" class="img-responsive img-rounded" alt="">
                     </a>
                     <div class="videos-caption">
-                        <h4>Google Business View - Passeando pelo salão de beleza</h4>
+                        <h4>Google Street View | Trusted - Passeando pelo salão de beleza</h4>
                         <p class="text-muted"></p>
                     </div>
                 </div>
@@ -1446,14 +1446,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Onde as pessoas visualizam o Business View?</a>
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Onde as pessoas visualizam o Google Street View | Trusted?</a>
 						</h4>
 					</div>
 					<div id="collapseOne" class="panel-collapse collapse">
 						<div class="panel-body">
-							O Business View aparece nos resultados da Pesquisa do Google, no Google Maps e no Google+, em computadores, smartphones ou tablets. 
+							O Google Street View | Trusted aparece nos resultados da Pesquisa do Google, no Google Maps e no Google+, em computadores, smartphones ou tablets. 
 							<br>
-							Você também pode incorporar o Business View no seu website e acompanhar o engajamento com o Google Analytics e Google Maps Business View.  
+							Você também pode incorporar o Google Street View | Trusted no seu website e acompanhar o engajamento com o Google Analytics e Google Street View | Trusted.  
 						</div>
 						<img src="images/vantagens/img01.png" class="img-responsive" alt="">
 					</div>
@@ -1461,37 +1461,37 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">O Business View pode ser incorporado no meu website?</a>
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">O Google Street View | Trusted pode ser incorporado no meu website?</a>
 						</h4>
 					</div>
 					<div id="collapseTwo" class="panel-collapse collapse">
 						<div class="panel-body">
-							Sim, o Business View pode ser incorporado no seu website e acompanhar o engajamento com o Google Analytics
+							Sim, o Google Street View | Trusted View pode ser incorporado no seu website e acompanhar o engajamento com o Google Analytics
 						</div>
 					</div>
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Quanto tempo leva o processo do Business View?</a>
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Quanto tempo leva o processo do Google Street View | Trusted?</a>
 						</h4>
 					</div>
 					<div id="collapseThree" class="panel-collapse collapse">
 						<div class="panel-body">
-							As sessões de fotos do Business View dependem da programação do seu
+							As sessões de fotos do Google Street View | Trusted dependem da programação do seu
 							estabelecimento e são projetadas para causar o mínimo impacto das suas
 							operações. Elas são concluídas geralmente em algumas horas. 
 							<br><br>
 							Depois da sessão, é	só aguardar. Nossa equipe fará o upload das imagens em alta resolução no Google.
 							<br><br>
-							Todas as suas fotos do Business View serão exibidas no Google em apenas alguns dias.
+							Todas as suas fotos do Google Street View | Trusted serão exibidas no Google em apenas alguns dias.
 						</div>
 					</div>
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Por que incorporar o Business View?</a>
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Por que incorporar o Google Street View | Trusted?</a>
 						</h4>
 					</div>
 					<div id="collapseFour" class="panel-collapse collapse">
@@ -1508,12 +1508,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Como o programa Business View funciona?</a>
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Como o programa Google Street View | Trusted funciona?</a>
 						</h4>
 					</div>
 					<div id="collapseFive" class="panel-collapse collapse">
 						<div class="panel-body">
-							O Google treina e certifica fotógrafos independentes e agências de fotografia para realizar sessões de fotos do Business View com equipamentos profissionais qualificados. 
+							O Google treina e certifica fotógrafos independentes e agências de fotografia para realizar sessões de fotos do Google Street View | Trusted com equipamentos profissionais qualificados. 
 						</div>
 					</div>
 				</div>
@@ -1521,7 +1521,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
-							<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Qual é o valor do Business View?</a>
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Qual é o valor do Google Street View | Trusted?</a>
 						</h4>
 					</div>
 					<div id="collapseSix" class="panel-collapse collapse">
@@ -1641,7 +1641,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <h2>Aumente o engajamento on-line com sua empresa</h2>
                             <p class="item-intro text-muted"></p>
                             <img class="img-responsive img-centered" src="images/vantagens/img01.png" alt="">
-                            <p>Com o Google Business View, seu estabelecimento se torna mais visivel nas pesquisas Google</p>
+                            <p>Com o Google Street View | Trusted, seu estabelecimento se torna mais visivel nas pesquisas Google</p>
                             <p>As informações importantes da sua empresa como Endereço, Horarios de atendimento e Produtos ficam facilmente disponíveis para seu clientes</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
                         </div>
@@ -1667,7 +1667,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <h2>Convide os clientes a entrar no seu estabelecimento</h2>
                             <p class="item-intro text-muted"></p>
                             <img class="img-responsive img-centered" src="images/vantagens/img02.png" alt="">
-                            <p>Com o Google Business View, seus clientes podem fazer uma visita virtual e conhecer seu estabelecimento</p>
+                            <p>Com o Google Street View | Trusted, seus clientes podem fazer uma visita virtual e conhecer seu estabelecimento</p>
                             <p>A visita virtual é simples e facil como a navegação do Street View</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
                         </div>
@@ -1693,7 +1693,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <h2>Adicione fotografias à sua presença no Google</h2>
                             <p class="item-intro text-muted"></p>
                             <img class="img-responsive img-centered" src="images/vantagens/img03.png" alt="">
-                            <p>Com o Google Business View, voce pode adicionar fotos de alta qualidade para a sua presença no Google</p>
+                            <p>Com o Google Street View | Trusted, voce pode adicionar fotos de alta qualidade para a sua presença no Google</p>
                             <p>Adicione fotos de produtos em destaque ou de detalhes de seu estabelecimento facilmente</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
                         </div>
@@ -1721,7 +1721,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <img src="images/Logo vetor 360.png" alt="Infodigital Tecnologia em Informática." width="140" height="93">
                             <p>A Infodigital nasceu em 4 de Maio de 2001. É Pioneira no Brasil com serviços em Tour Virtual 360 graus (inclusive quando os programas ainda eram em Java) e conteúdos para websites. </p>
 							<p>Sediada em São Paulo, ao longo destes anos, prestou serviços em diversas localidades e ramos de empreendimentos, como o “Primeiro Tour Virtual 360°” em locais como: Ilha de Fernando de Noronha, Ilha Bela, Morro de São Paulo na Bahia, Rio Grande do Norte em diversos Hotéis, Coca-Cola em Ribeirão Preto, Observatório Nacional no Rio de Janeiro, Teatro Municipal e Parque do Ibirapuera em São Paulo; enfim, diversos ramos e locais do Brasil. </p>
-							<p>Com todos estes trabalhos ao longo de 15 anos de serviços por todo o Brasil, foi selecionada e Certificada pelo Google, como “Agência de Confiança”, para o programa do Google Business View,( Agencia Infodigital360° ), site <a href="http://www.infodigital.com.br" target="_blank">www.infodigital.com.br</a> </p>
+							<p>Com todos estes trabalhos ao longo de 15 anos de serviços por todo o Brasil, foi selecionada e Certificada pelo Google, como “Agência de Confiança”, para o programa do Google Street View | Trusted,( Agencia Infodigital360 ), site <a href="http://www.infodigital.com.br" target="_blank">www.infodigital.com.br</a> </p>
                             <br>
 							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
                         </div>
@@ -1749,7 +1749,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <img src="images/Logo vetor 360.png" alt="Infodigital Tecnologia em Informática." width="140" height="93">
                             <p>A Infodigital nasceu em 4 de Maio de 2001. É Pioneira no Brasil com serviços em Tour Virtual 360 graus (inclusive quando os programas ainda eram em Java) e conteúdos para websites. </p>
 							<p>Sediada em São Paulo, ao longo destes anos, prestou serviços em diversas localidades e ramos de empreendimentos, como o “Primeiro Tour Virtual 360°” em locais como: Ilha de Fernando de Noronha, Ilha Bela, Morro de São Paulo na Bahia, Rio Grande do Norte em diversos Hotéis, Coca-Cola em Ribeirão Preto, Observatório Nacional no Rio de Janeiro, Teatro Municipal e Parque do Ibirapuera em São Paulo; enfim, diversos ramos e locais do Brasil. </p>
-							<p>Com todos estes trabalhos ao longo de 15 anos de serviços por todo o Brasil, foi selecionada e Certificada pelo Google, como “Agência de Confiança”, para o programa do Google Business View,( Agencia Infodigital360° ), site <a href="http://www.infodigital.com.br" target="_blank">www.infodigital.com.br</a> </p>
+							<p>Com todos estes trabalhos ao longo de 15 anos de serviços por todo o Brasil, foi selecionada e Certificada pelo Google, como “Agência de Confiança”, para o programa do Google Street View | Trusted,( Agencia Infodigital360° ), site <a href="http://www.infodigital.com.br" target="_blank">www.infodigital.com.br</a> </p>
                             <br>
 							<button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
                         </div>
