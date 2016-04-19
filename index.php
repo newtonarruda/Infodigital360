@@ -1381,7 +1381,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <img src="videos/video02_thumb.jpg" class="img-responsive img-rounded" alt="">
                     </a>
                     <div class="videos-caption">
-                        <h4>Depoimentos e relatos  sobre o Google Busines View no mundo</h4>
+                        <h4>Depoimentos e relatos  sobre o Google Street View | Trusted no mundo</h4>
                         <p class="text-muted"></p>
                     </div>
                 </div>
